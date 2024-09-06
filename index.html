@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skatee</title>
+    <link rel="icon" href="icon.avif" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="content-box">
+        <h4>Do you wanna skate w me?</h4>
+        <div class="button-container">
+            <button class="button scale-up" id="btn-yes" onclick="yupie()" >I'm down</button>
+            <button class="button scale-down" id="btn-no" onclick="makeButtonBigger()">naww</button>
+        </div>
+        <div id="container" class="container">
+            <h4> <!--content will be added here--> </h4>
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="skate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js/dist/index.min.js"></script>
+</body>
+</html>
